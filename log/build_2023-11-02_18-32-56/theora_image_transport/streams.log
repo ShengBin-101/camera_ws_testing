@@ -1,0 +1,25 @@
+[0.112s] Invoking command in '/home/shengbin/camera_ws/build/theora_image_transport': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/ros2_shared:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shengbin/camera_ws/build/theora_image_transport -- -j16 -l16
+[0.142s] [  2%] Built target theora_image_transport__cpp
+[0.145s] [ 10%] Built target theora_image_transport__rosidl_generator_c
+[0.155s] [ 18%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[0.156s] [ 18%] Built target ament_cmake_python_copy_theora_image_transport
+[0.158s] [ 27%] Built target theora_image_transport__rosidl_typesupport_cpp
+[0.160s] [ 35%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[0.161s] [ 43%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[0.166s] [ 51%] Built target theora_image_transport__rosidl_typesupport_c
+[0.168s] [ 59%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[0.175s] [ 64%] Built target ogg_saver
+[0.180s] [ 64%] Built target theora_image_transport
+[0.184s] [ 75%] Built target theora_image_transport_component
+[0.193s] [ 78%] Built target theora_image_transport__py
+[0.207s] [ 83%] Built target theora_image_transport__rosidl_generator_py
+[0.222s] [ 89%] Built target theora_image_transport__rosidl_typesupport_introspection_c__pyext
+[0.224s] [ 94%] Built target theora_image_transport__rosidl_typesupport_c__pyext
+[0.226s] [100%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext
+[0.331s] running egg_info
+[0.331s] writing theora_image_transport.egg-info/PKG-INFO
+[0.331s] writing dependency_links to theora_image_transport.egg-info/dependency_links.txt
+[0.331s] writing top-level names to theora_image_transport.egg-info/top_level.txt
+[0.333s] reading manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+[0.333s] writing manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+[0.355s] [100%] Built target ament_cmake_python_build_theora_image_transport_egg

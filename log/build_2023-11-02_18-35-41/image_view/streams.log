@@ -1,0 +1,21 @@
+[0.409s] Invoking command in '/home/shengbin/camera_ws/build/image_view': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shengbin/camera_ws/src/image_pipeline/image_view -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/image_view
+[0.737s] -- Configuring incomplete, errors occurred!
+[0.737s] See also "/home/shengbin/camera_ws/build/image_view/CMakeFiles/CMakeOutput.log".
+[0.746s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.747s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.747s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.748s]   CMake did not find one.
+[0.748s] 
+[0.748s]   Could not find a package configuration file provided by "catkin" with any
+[0.748s]   of the following names:
+[0.749s] 
+[0.749s]     catkinConfig.cmake
+[0.750s]     catkin-config.cmake
+[0.750s] 
+[0.750s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.751s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.752s]   provides a separate development package or SDK, be sure it has been
+[0.752s]   installed.
+[0.752s] 
+[0.752s] [0m
+[0.765s] Invoked command in '/home/shengbin/camera_ws/build/image_view' returned '1': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shengbin/camera_ws/src/image_pipeline/image_view -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/image_view

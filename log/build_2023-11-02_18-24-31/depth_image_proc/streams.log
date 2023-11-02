@@ -1,0 +1,20 @@
+[0.177s] Invoking command in '/home/shengbin/camera_ws/build/depth_image_proc': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shengbin/camera_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shengbin/camera_ws/src/image_pipeline/depth_image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/depth_image_proc
+[0.211s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.211s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.211s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.211s]   CMake did not find one.
+[0.211s] 
+[0.211s]   Could not find a package configuration file provided by "catkin" with any
+[0.211s]   of the following names:
+[0.211s] 
+[0.211s]     catkinConfig.cmake
+[0.212s]     catkin-config.cmake
+[0.212s] 
+[0.212s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.212s] -- Configuring incomplete, errors occurred!
+[0.212s] See also "/home/shengbin/camera_ws/build/depth_image_proc/CMakeFiles/CMakeOutput.log".
+[0.212s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.212s]   provides a separate development package or SDK, be sure it has been
+[0.212s]   installed.
+[0.213s] 
+[0.213s] [0m

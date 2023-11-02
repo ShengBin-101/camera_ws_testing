@@ -1,0 +1,26 @@
+[0.381s] Invoking command in '/home/shengbin/camera_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shengbin/camera_ws/build/theora_image_transport -- -j16 -l16
+[0.708s] [  2%] Built target theora_image_transport__cpp
+[0.709s] [ 10%] Built target theora_image_transport__rosidl_generator_c
+[0.709s] [ 10%] Built target ament_cmake_python_copy_theora_image_transport
+[0.709s] [ 18%] Built target theora_image_transport__rosidl_typesupport_c
+[0.709s] [ 27%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[0.709s] [ 35%] Built target theora_image_transport__rosidl_typesupport_cpp
+[0.710s] [ 43%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[0.711s] [ 51%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[0.711s] [ 59%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[0.711s] [ 59%] Built target theora_image_transport
+[0.712s] [ 64%] Built target ogg_saver
+[0.712s] [ 75%] Built target theora_image_transport_component
+[0.712s] [ 78%] Built target theora_image_transport__py
+[0.713s] [ 83%] Built target theora_image_transport__rosidl_generator_py
+[0.713s] [ 89%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext
+[0.713s] [ 94%] Built target theora_image_transport__rosidl_typesupport_c__pyext
+[0.714s] [100%] Built target theora_image_transport__rosidl_typesupport_introspection_c__pyext
+[0.714s] running egg_info
+[0.714s] writing theora_image_transport.egg-info/PKG-INFO
+[0.715s] writing dependency_links to theora_image_transport.egg-info/dependency_links.txt
+[0.715s] writing top-level names to theora_image_transport.egg-info/top_level.txt
+[0.715s] reading manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+[0.716s] writing manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+[0.716s] [100%] Built target ament_cmake_python_build_theora_image_transport_egg
+[0.737s] Invoked command in '/home/shengbin/camera_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shengbin/camera_ws/build/theora_image_transport -- -j16 -l16

@@ -1,0 +1,21 @@
+[0.628s] Invoking command in '/home/shengbin/camera_ws/build/image_proc': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/ros2_shared:/home/shengbin/camera_ws/install/camera_info_manager LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shengbin/camera_ws/src/image_pipeline/image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/image_proc
+[0.667s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.667s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.667s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.667s]   CMake did not find one.
+[0.668s] 
+[0.668s]   Could not find a package configuration file provided by "catkin" with any
+[0.669s]   of the following names:
+[0.670s] 
+[0.670s]     catkinConfig.cmake
+[0.670s]     catkin-config.cmake
+[0.670s] 
+[0.671s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.672s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.672s]   provides a separate development package or SDK, be sure it has been
+[0.673s]   installed.
+[0.674s] 
+[0.675s] [0m
+[0.676s] -- Configuring incomplete, errors occurred!
+[0.677s] See also "/home/shengbin/camera_ws/build/image_proc/CMakeFiles/CMakeOutput.log".
+[0.679s] Invoked command in '/home/shengbin/camera_ws/build/image_proc' returned '1': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/ros2_shared:/home/shengbin/camera_ws/install/camera_info_manager LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/shengbin/camera_ws/src/image_pipeline/image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/image_proc
