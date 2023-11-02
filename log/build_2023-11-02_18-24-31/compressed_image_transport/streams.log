@@ -1,6 +1,0 @@
-[0.204s] Invoking command in '/home/shengbin/camera_ws/build/compressed_image_transport': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shengbin/camera_ws/build/compressed_image_transport -- -j16 -l16
-[0.226s] [35m[1mConsolidate compiler generated dependencies of target compressed_image_transport[0m
-[0.242s] [ 25%] [32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/manifest.cpp.o[0m
-[0.242s] [ 50%] [32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_subscriber.cpp.o[0m
-[6.869s] [ 75%] [32m[1mLinking CXX shared library libcompressed_image_transport.so[0m
-[7.449s] [100%] Built target compressed_image_transport
