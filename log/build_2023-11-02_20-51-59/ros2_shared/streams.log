@@ -1,0 +1,61 @@
+[0.323s] Invoking command in '/home/shengbin/camera_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera_calibration:/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/shengbin/camera_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/ros2_shared
+[0.372s] -- The C compiler identification is GNU 11.4.0
+[0.454s] -- The CXX compiler identification is GNU 11.4.0
+[0.464s] -- Detecting C compiler ABI info
+[0.544s] -- Detecting C compiler ABI info - done
+[0.556s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.556s] -- Detecting C compile features
+[0.557s] -- Detecting C compile features - done
+[0.562s] -- Detecting CXX compiler ABI info
+[0.645s] -- Detecting CXX compiler ABI info - done
+[0.654s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.655s] -- Detecting CXX compile features
+[0.655s] -- Detecting CXX compile features - done
+[0.657s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.871s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.036s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.155s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.163s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.177s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.330s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.333s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.360s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.367s] -- Looking for pthread.h
+[1.424s] -- Looking for pthread.h - found
+[1.424s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.490s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.491s] -- Found Threads: TRUE  
+[1.874s] -- Configuring done
+[1.881s] -- Generating done
+[1.884s] -- Build files have been written to: /home/shengbin/camera_ws/build/ros2_shared
+[1.895s] Invoked command in '/home/shengbin/camera_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera_calibration:/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/shengbin/camera_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/ros2_shared
+[1.897s] Invoking command in '/home/shengbin/camera_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera_calibration:/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/ros2_shared -- -j16 -l16
+[1.947s] Invoked command in '/home/shengbin/camera_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera_calibration:/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/ros2_shared -- -j16 -l16
+[1.987s] Invoking command in '/home/shengbin/camera_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera_calibration:/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/shengbin/camera_ws/build/ros2_shared
+[2.001s] -- Install configuration: ""
+[2.001s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/include
+[2.002s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/include/ros2_shared
+[2.002s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp
+[2.002s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[2.002s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[2.002s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[2.002s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[2.002s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[2.002s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[2.003s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/environment/path.sh
+[2.003s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[2.003s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/local_setup.bash
+[2.003s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/local_setup.sh
+[2.003s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[2.003s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[2.003s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/package.dsv
+[2.004s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[2.004s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_shared_targetsExport.cmake
+[2.004s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_targets-extras.cmake
+[2.004s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.004s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[2.004s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[2.005s] -- Installing: /home/shengbin/camera_ws/install/ros2_shared/share/ros2_shared/package.xml
+[2.007s] Invoked command in '/home/shengbin/camera_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera_calibration:/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --install /home/shengbin/camera_ws/build/ros2_shared
