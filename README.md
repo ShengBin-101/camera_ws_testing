@@ -188,3 +188,25 @@ Open new terminal to run rqt to view images.
 Open new terminal to run rqt_graph to view nodes and topics.
 
     rqt_graph
+
+# Customizing Launch File
+```
+    cd ~/camera_ws/src/camera/launch/
+```
+Inside camera_launch.xml, change parameter for "video_device" from value="/dev/video2" to corresponding video capture for each camera.
+
+```
+    <launch>
+      <node pkg="v4l2_camera" exec="v4l2_camera_node" name="leftcam" namespace="leftcam">
+            <param name="video_device" value="/dev/video2" />
+            <param name="camera_info_path" value="left.ini" />
+      </node>
+      <node pkg="v4l2_camera" exec="v4l2_camera_node" name="rightcam" namespace="rightcam">
+            <param name="video_device" value="/dev/video4" />
+            <param name="camera_info_path" value="right.ini" />
+      </node>
+      <node pkg="v4l2_camera" exec="v4l2_camera_node" name="bottomcam" namespace="bottomcam">
+            <param name="video_device" value="/dev/video0" />
+      </node>
+    </launch>
+```
